@@ -1,4 +1,4 @@
-# React Test-Driven Development Project Guidelines
+# React Test-Driven Development Project
 
 ## Introduction
 
