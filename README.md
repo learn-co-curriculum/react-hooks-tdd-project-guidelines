@@ -26,8 +26,13 @@ by which your assignment will be evaluated.
 ## Project Brief
 
 For this project, you'll be creating a React frontend application that uses the
-GitHub API to search and view data about users and their repositories. You must
-build features that complete the following **user stories**:
+GitHub API to search and view data about users and their repositories.
+
+Make sure you follow a test-driven development process when building the
+application, and include both unit and integration tests for your components
+that validate the functionality described below.
+
+You must build features that complete the following **user stories**.
 
 As a user, I can…
 
@@ -134,7 +139,7 @@ up your code often.
 Once your work is done, you'll submit a link to your GitHub repository in Canvas
 for review.
 
-## GitHub API
+## Using the GitHub API
 
 This project involves using the GitHub API to access data. The [GitHub API
 docs][gh api] are an awesome resource for everything you'll need to build out
@@ -178,7 +183,7 @@ function SearchResults({ term }) {
 }
 ```
 
-### Endpoints
+### GitHub API Endpoints
 
 Here are all the important endpoints you'll need in order to build out the
 remaining user stories:
@@ -190,7 +195,7 @@ remaining user stories:
 - [`/users/{username}/repositories`](https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user):
   list repositories for a user
 
-### API Limitations
+### GitHub API Limitations
 
 The GitHub API is free to use, and works without needing any authentication
 (such as an API key). However, unauthenticated clients are limited to **60
